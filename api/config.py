@@ -4,7 +4,7 @@ import pathlib
 import os
 import sys
 
-PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent
+PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 FORMATTER = logging.Formatter(
     "%(asctime)s - %(name)s - %(levelname)s -" "%(funcName)s:%(lineno)d - %(message)s"
